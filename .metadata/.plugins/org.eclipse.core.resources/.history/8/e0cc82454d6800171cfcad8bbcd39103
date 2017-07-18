@@ -1,0 +1,11 @@
+package Spring.MongoSpring;
+
+import java.util.List;
+
+public interface DBService {
+	
+	void start();
+	void write(String collection , List<E> list);
+	
+
+}

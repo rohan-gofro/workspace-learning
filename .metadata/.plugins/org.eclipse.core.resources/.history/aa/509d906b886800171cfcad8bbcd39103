@@ -1,0 +1,16 @@
+package Spring.MongoSpring;
+
+
+class App
+{
+	public static void main(String[] args) {
+		
+		GofroDataToCollection obj = new GofroDataToCollection();
+		MongoDbService service = new MongoDbService();
+		ArrayList<City> cityList = obj.createCityList("states.csv", service);
+		service.stopService();
+	
+		
+		
+	}
+}

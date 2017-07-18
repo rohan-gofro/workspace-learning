@@ -1,0 +1,12 @@
+package Spring.MongoSpring;
+
+import java.util.ArrayList;
+
+
+public interface CsvToCollection {
+	
+	public ArrayList<Country> createCountryList(String filepath);
+	public ArrayList<State> createStatesList(String filepath);
+	public ArrayList<City> createCityList(String filepath);
+
+}

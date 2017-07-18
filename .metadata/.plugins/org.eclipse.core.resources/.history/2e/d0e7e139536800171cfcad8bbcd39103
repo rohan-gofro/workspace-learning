@@ -1,0 +1,11 @@
+package Spring.MongoSpring;
+
+import java.util.HashSet;
+import java.util.List;
+
+public interface CsvToList {
+	
+	public<E> List<E> getList(String filePath);
+	public<E> HashSet<E> getHashSet(String filePath);
+
+}

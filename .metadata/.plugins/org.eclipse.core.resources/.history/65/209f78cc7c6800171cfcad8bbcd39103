@@ -1,0 +1,15 @@
+package Spring.MongoSpring;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
+
+public interface ObjectToCollection 
+{
+	
+	public List<Country> createCountryList(String filepath);
+	public boolean createStatesList(String filepath , HashSet<State> listState, State obj , int id);
+	public boolean createCityList(String filepath , ArrayList<City> list, City obj);
+
+}

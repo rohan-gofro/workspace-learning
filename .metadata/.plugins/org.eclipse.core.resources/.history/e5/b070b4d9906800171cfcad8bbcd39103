@@ -1,0 +1,19 @@
+package Spring.MongoSpring;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+class App
+{
+	public static void main(String[] args) {
+		
+		GofroDataToCollection obj = new GofroDataToCollection();
+		MongoDbService service = new MongoDbService();		
+		ArrayList<City> city = obj.createCityList("states.csv", service);
+		for(City i: city)
+		{
+			i.displayCity();
+		}
+		
+	}
+}

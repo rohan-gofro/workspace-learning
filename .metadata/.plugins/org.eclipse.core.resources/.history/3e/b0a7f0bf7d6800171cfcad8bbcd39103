@@ -1,0 +1,39 @@
+package Spring.MongoSpring;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+public class GofroDataToCollection implements CsvToCollection {
+
+	private BufferedReader br;
+	
+	private void getReader(String filepath)
+	{
+		br = new BufferedReader(new FileReader(filepath));
+	}
+	
+	public List<Country> createCountryList(String filepath) {
+		
+		List<Country> countryList = new ArrayList<Country>();
+		
+		
+		
+	}
+
+	public Set<State> createStatesList(String filepath) {
+		
+		
+		return null;
+	}
+
+	public List<City> createCityList(String filepath) {
+		
+		
+		return null;
+	}
+	
+	
+
+}

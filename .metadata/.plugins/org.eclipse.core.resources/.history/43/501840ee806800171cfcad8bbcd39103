@@ -1,0 +1,105 @@
+package Spring.MongoSpring;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class GofroDataToCollection implements CsvToCollection {
+
+	private BufferedReader br;
+	private static int stateCount = 0;
+	private static int cityCount = 0;
+	
+	private boolean getReader(String filepath)
+	{
+		try {
+			br = new BufferedReader(new FileReader(filepath));
+			return true;
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			return false;
+		}
+	}
+	
+	private boolean closeWriter()
+	{
+		try
+		{
+			br.close();
+			return true;
+		}
+		catch(Exception e){
+			return false;
+		}
+	}
+	
+	public List<Country> createCountryList(String filepath) {
+		
+		List<Country> countryList = new ArrayList<Country>();
+		String line;
+		String[] args;
+		try {
+			while((line = br.readLine())!= null)
+			{
+				args = line.split(",");
+				countryList.add(new Country(args[0] , args[1]));
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Error while reading file " + filepath);
+			return null;
+		}
+		
+		if(getReader(filepath))
+		{
+			closeWriter();
+			return countryList;
+		}
+		else
+		{
+			System.out.println(filepath + "file missing");
+			return null;
+		}
+		
+		
+	}
+
+	public Set<State> createStatesList(String filepath) {
+	
+		Set<State> stateSet = new HashSet<State>();
+		if(getReader(filepath))
+		{
+			String line;
+			String args;
+			try {
+				while((line = br.readLine())!=null)
+				{
+					
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println("error reading file " + filepath);
+				return null;
+			}
+		}
+		else
+		{
+			System.out.println(filepath + " not found");
+			return null;
+		}
+		return null;
+	}
+
+	public List<City> createCityList(String filepath) {
+		
+		
+		return null;
+	}
+	
+	
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Spring.MongoSpring.DBService"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.CsvToList"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.Base"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.GofroDataCsvToList"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.CsvToCollection"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.State"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.City"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.Country"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.sql.rowset.serial.SerialArray"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ClassPathBeanDefinitionScanner"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.MongoDb"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.MongoDbService"/>
+<fullyQualifiedTypeName name="Spring.MongoSpring.GofroDataToCollection"/>
+</qualifiedTypeNameHistroy>

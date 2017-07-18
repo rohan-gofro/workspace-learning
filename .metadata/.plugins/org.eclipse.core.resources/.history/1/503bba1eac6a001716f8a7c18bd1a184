@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+
+
+<bean id= "MongoDbBean" class="Spring.MongoSpring.MognoDbService" autowire="byType"></bean>
+
+<bean id = "dbcredentials" class="Spring.MongoSpring.MongoDb">
+<property name="database" value="gofrospring"></property>
+<property name="host" value="localhost"></property>
+<property name="port" value="27017"></property>
+</bean>
+
+<bean id="data" class="Spring.MongoSpring.GofroDataToCollection" autowire="byType">
+</bean>
+  
+</beans>  

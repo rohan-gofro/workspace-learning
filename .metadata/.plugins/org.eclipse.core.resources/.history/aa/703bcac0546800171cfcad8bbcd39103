@@ -1,0 +1,14 @@
+package Spring.MongoSpring;
+
+import java.util.HashSet;
+import java.util.List;
+
+public interface DBService {
+	
+	public void start();
+	public <E> boolean writeCountry(String collection , List<E> list);
+	public <E> boolean writeState(String collection , HashSet<E> list);
+	public <E> boolean writeCity(String collection , List<E> list);
+	public void stop();
+
+}

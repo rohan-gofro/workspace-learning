@@ -1,0 +1,36 @@
+package Spring.MongoSpring;
+
+public class Country extends Base{
+	
+	private String name;
+	private String code;
+	
+	public Country(String code , String name)
+	{
+		this.code = code;
+		this.name = name;
+	}
+	
+	public void displayCountry()
+	{
+		System.out.println("Code: " + code + " Name: " + name);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	@Override
+	public Base fillInstance(String arg1, String arg2) {
+		
+		return (new Country(arg1, arg2));
+		
+	}
+	
+	
+
+}

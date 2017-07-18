@@ -1,0 +1,9 @@
+package Spring.MongoSpring;
+
+public interface DBService {
+	
+	void start();
+	void write(String collection , List<E> data);
+	
+
+}

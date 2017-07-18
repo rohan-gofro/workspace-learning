@@ -1,0 +1,8 @@
+package Spring.MongoSpring;
+public class State {
+	
+	private String code;
+	private String name;
+	
+
+}

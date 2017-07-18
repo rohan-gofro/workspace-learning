@@ -1,0 +1,14 @@
+package Spring.MongoSpring;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+
+public interface CsvToCollection 
+{
+	
+	public boolean createCountryList(String filepath , ArrayList<Country> listCountry, Country obj);
+	public boolean createStatesList(String filepath , HashSet<State> listState, State obj , int id);
+	public boolean createCityList(String filepath , ArrayList<City> list, City obj);
+
+}
