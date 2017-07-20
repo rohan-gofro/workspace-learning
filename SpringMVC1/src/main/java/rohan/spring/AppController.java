@@ -20,5 +20,4 @@ public class AppController {
 		map.addAttribute("message", message);
 		return "hellopage";
 	}
-
 }
