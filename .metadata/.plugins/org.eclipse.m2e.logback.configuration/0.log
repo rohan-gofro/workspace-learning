@@ -2506,3 +2506,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2017-07-20 18:51:44,546 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-07-20 18:51:44,548 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-07-20 18:51:44,548 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rohangupta/Desktop/workspace-learning/SpringMVC1/src/test/resources
+2017-07-20 19:00:58,438 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-20 19:00:58,453 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-20 19:00:58,456 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-20 19:00:58,457 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rohangupta/Desktop/workspace-learning/SpringMVC1/src/test/resources
+2017-07-21 11:59:33,833 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-21 11:59:33,940 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-21 11:59:33,952 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-21 11:59:33,954 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rohangupta/Desktop/workspace-learning/SpringMVC1/src/test/resources
