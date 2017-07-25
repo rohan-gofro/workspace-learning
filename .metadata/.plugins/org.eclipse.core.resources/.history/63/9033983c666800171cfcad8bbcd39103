@@ -1,7 +1,0 @@
-package Spring.MongoSpring;
-
-public abstract class Base {
-	
-	abstract public Base fillInstance(String arg1 , String arg2);
-
-}

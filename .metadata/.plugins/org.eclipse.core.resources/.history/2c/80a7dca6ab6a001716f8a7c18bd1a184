@@ -1,8 +1,0 @@
-package Spring.MongoSpring;
-
-public class Snippet {
-	public static void main(String[] args) {
-		byType
-	}
-}
-
