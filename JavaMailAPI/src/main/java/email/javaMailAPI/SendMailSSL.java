@@ -1,4 +1,4 @@
-package Email.JavaMailAPI;
+package email.javaMailAPI;
 
 public class SendMailSSL {
 	

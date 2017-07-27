@@ -1,4 +1,4 @@
-package Email.JavaMailAPI;
+package email.javaMailAPI;
 
 /**
  * Hello world!

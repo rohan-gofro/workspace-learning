@@ -1,4 +1,4 @@
-package Email.JavaMailAPI;
+package email.javaMailAPI;
 
 import java.util.Properties;
 
@@ -37,6 +37,8 @@ public class Mailer {
          try {    
           MimeMessage message = new MimeMessage(session);    
           message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));    
+          message.addRecipient(Message.RecipientType.TO,new InternetAddress("rguptarrr@gmail.com"));
+          message.addRecipient(Message.RecipientType.CC,new InternetAddress("mail.gupta.rohan@gmail.com"));
           message.setSubject(sub);    
           message.setText(msg);    
           //send message  
