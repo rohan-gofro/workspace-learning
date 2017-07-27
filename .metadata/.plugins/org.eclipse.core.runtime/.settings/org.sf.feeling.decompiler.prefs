@@ -1,5 +1,6 @@
 brightStyle={"text"\:{"foreground"\:"COLOR_RED"}}
 darkStyle={"text"\:{"foreground"\:"COLOR_BLUE"}}
 eclipse.preferences.version=1
+jd.ide.eclipse.prefs.DisplayLineNumbers=true
 trayLinkStrategy=[]
 uuid=ec8a1aaf-8330-4e9f-b74b-175d01fb50cc
