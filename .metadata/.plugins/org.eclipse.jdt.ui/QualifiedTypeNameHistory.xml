@@ -15,7 +15,6 @@
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="Spring.MongoSpring.State"/>
 <fullyQualifiedTypeName name="Spring.MongoSpring.City"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="Spring.MongoSpring.Country"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="javax.sql.rowset.serial.SerialArray"/>
@@ -35,7 +34,17 @@
 <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
 <fullyQualifiedTypeName name="javax.mail.Session"/>
 <fullyQualifiedTypeName name="java.net.PasswordAuthentication"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="email.attachment.SendAttachment"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="javax.mail.BodyPart"/>
+<fullyQualifiedTypeName name="javax.activation.FileDataSource"/>
+<fullyQualifiedTypeName name="javax.activation.DataSource"/>
+<fullyQualifiedTypeName name="javax.activation.DataHandler"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="email.javaMailAPI.Property"/>
+<fullyQualifiedTypeName name="email.javaMailAPI.Mailer"/>
+<fullyQualifiedTypeName name="email.javaMailAPI.EmailRecipients"/>
+<fullyQualifiedTypeName name="email.javaMailAPI.EmailContent"/>
 </qualifiedTypeNameHistroy>

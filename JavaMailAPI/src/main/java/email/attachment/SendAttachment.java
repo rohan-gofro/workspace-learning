@@ -38,9 +38,11 @@ public class SendAttachment {
 		//2) compose message     
 		  try{  
 		    MimeMessage message = new MimeMessage(session);  
-		    message.setFrom(new InternetAddress(user));  
+		    //message.setFrom(new InternetAddress(user));  
 		    message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));  
 		    message.setSubject("Message Aleart");  
+		    
+		    
 		      
 		    //3) create MimeBodyPart object and set your message text     
 		    BodyPart messageBodyPart1 = new MimeBodyPart();  

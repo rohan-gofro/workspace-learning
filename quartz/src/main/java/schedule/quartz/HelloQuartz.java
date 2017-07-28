@@ -10,7 +10,7 @@ public class HelloQuartz implements Job
 
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		// TODO Auto-generated method stub
-		System.out.println("Hello Quartz");
+		System.out.println(Thread.currentThread().getName()+"- Hello Quartz");
 		
 	}
 	

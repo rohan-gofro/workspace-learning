@@ -15,6 +15,7 @@ public class CronTriggerExample {
 		// JobDetail job = new JobDetail();
 		// job.setName("dummyJobName");
 		// job.setJobClass(HelloJob.class);
+		System.out.println(Thread.currentThread().getName()+"- Starting");
 		JobDetail job = JobBuilder.newJob(HelloQuartz.class).withIdentity("dummyJobName", "group1").build();
 
 		// Quartz 1.6.3
@@ -29,6 +30,6 @@ public class CronTriggerExample {
 		Scheduler scheduler = new StdSchedulerFactory().getScheduler();
 		scheduler.start();
 		scheduler.scheduleJob(job, trigger);
-
+		System.out.println(Thread.currentThread().getName()+"- Scheduled");
 	}
 }

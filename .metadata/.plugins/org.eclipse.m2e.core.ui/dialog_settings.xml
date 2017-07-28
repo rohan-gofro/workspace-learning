@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/rohangupta/Desktop/workspace-learning/quartz"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/JavaMailAPI"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/MongoSpringProject"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/Assign3MongoProper"/>
@@ -61,14 +62,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="apring.cron"/>
+			<item value="download.file"/>
 			<item value="Schedule.Quartz"/>
 			<item value="Email.JavaMailAPI"/>
 		</list>
 		<list key="groupId">
+			<item value="Spring"/>
+			<item value="download"/>
+			<item value="schedule"/>
 			<item value="Schedule"/>
 			<item value="Email"/>
 		</list>
 		<list key="artifactId">
+			<item value="cron"/>
+			<item value="file"/>
+			<item value="quartz"/>
 			<item value="Quartz"/>
 			<item value="JavaMailAPI"/>
 		</list>
