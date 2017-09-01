@@ -1,0 +1,17 @@
+2017-08-09 13:29:38 | INFO  | [main] j.m.Task:23 -Application Started
+2017-08-09 13:29:38 | ERROR | [main] j.m.Task:27 -Application terminates as .conf File Not Found in conf folder
+2017-08-09 13:30:17 | INFO  | [main] j.m.Task:23 -Application Started
+2017-08-09 13:30:17 | ERROR | [main] j.m.Task:27 -Application terminates as .conf File Not Found in conf folder
+2017-08-09 13:30:41 | INFO  | [main] j.m.Task:25 -Application Started
+2017-08-09 13:30:41 | INFO  | [main] j.s.ParseConfigFile:79 -Parsed Successfully
+2017-08-09 13:30:41 | INFO  | [main] j.m.Task:34 -Configuration Object made
+2017-08-09 13:30:41 | INFO  | [main] j.m.Task:36 -Job Scheduled
+2017-08-09 13:30:50 | INFO  | [pool-2-thread-1] j.s.ScheduleMailJob:19 -Job scheduled for sending email
+2017-08-09 13:30:50 | INFO  | [pool-2-thread-1] j.m.Mailer:223 -File downloaded successfully
+2017-08-09 13:30:55 | INFO  | [pool-2-thread-1] j.m.Mailer:162 -mail sent successfully
+2017-08-09 13:46:57 | INFO  | [main] j.m.Task:25 -Application Started
+2017-08-09 13:46:57 | ERROR | [main] j.m.Task:29 -Application terminates as .conf File Not Found in conf folder
+2017-08-09 13:49:38 | INFO  | [main] j.m.Task:25 -Application Started
+2017-08-09 13:49:38 | ERROR | [main] j.m.Task:29 -Application terminates as .conf File Not Found in conf folder
+2017-08-09 14:50:01 | INFO  | [main] j.m.Task:24 -Application Started
+2017-08-09 14:50:01 | ERROR | [main] j.m.Task:28 -Application terminates as .conf File Not Found in conf folder

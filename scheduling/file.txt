@@ -1,0 +1,8 @@
+api-url#http://10.197.6.95/api/queries/330/results.csv?api_key=FoN6TS501B67YgJ2t1NrRLJ3RIZZFzMYwYpA8rtt
+filename#rohan.csv
+subject#file sending
+message#hi this is a file
+message#from Rohan Gupta
+cron#0 27,28 11 * * ?
+to#rohan.gupta@gofro.com
+cc#rohangupta.cs@gmail.com

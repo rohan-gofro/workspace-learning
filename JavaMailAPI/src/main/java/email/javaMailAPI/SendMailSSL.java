@@ -1,7 +1,9 @@
 package email.javaMailAPI;
 
-public class SendMailSSL {
-	public static void main(String[] args) {
+public class SendMailSSL 
+{	
+	public static void main(String[] args) 
+	{
 		String subject = "Hello Attachment";
 		String message = "How are you ?\n\n-Rohan Gupta";
 		String to = "rohan.gupta@gofro.com";
@@ -10,9 +12,11 @@ public class SendMailSSL {
 		Mailer mailer = new Mailer();
 		EmailContent content = new EmailContent(subject, message , file);
 		EmailRecipients recipients = new EmailRecipients(to, cc);
-		if (mailer.sendMail(content, recipients)) {
+		if (mailer.sendMail(content, recipients)) 
+		{
 			System.out.println("Success");
-		} else {
+		} else 
+		{
 			System.out.println("Failure");
 		}
 	}

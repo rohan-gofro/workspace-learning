@@ -2,10 +2,25 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="DataCompare"/>
+			<item value="DataComparison"/>
+			<item value="Scheduling"/>
+			<item value="MysqlVSVertica"/>
+			<item value="VSQL"/>
+			<item value="MySQL"/>
+			<item value="scheduler"/>
+			<item value="slf4j"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="DCWithInclusionAndExclusion"/>
+			<item value="DataComparisonReportGenerator"/>
+			<item value="CompareData"/>
+			<item value="vsqlConnection"/>
+			<item value="mysqlConnection"/>
+			<item value="MailScheduler"/>
+			<item value="loggerXML"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -31,6 +46,20 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/rohangupta/Desktop/workspace-learning/DCWithInclusionAndExclusion"/>
+			<item value="/home/rohangupta/Desktop/asd"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -44,6 +73,13 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/rohangupta/Desktop/workspace-learning/DataComparisonReportGenerator"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/MailScheduler/src/main/java/job/scheduling"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/vsqlConnection"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/mysqlConnection"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/scheduling"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/ScheduleWithDynamicCron"/>
+			<item value="/home/rohangupta/Desktop/workspace-learning/cron"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/quartz"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/JavaMailAPI"/>
 			<item value="/home/rohangupta/Desktop/workspace-learning/MongoSpringProject"/>
@@ -62,24 +98,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="apring.cron"/>
-			<item value="download.file"/>
-			<item value="Schedule.Quartz"/>
-			<item value="Email.JavaMailAPI"/>
 		</list>
 		<list key="groupId">
-			<item value="Spring"/>
-			<item value="download"/>
-			<item value="schedule"/>
-			<item value="Schedule"/>
-			<item value="Email"/>
 		</list>
 		<list key="artifactId">
-			<item value="cron"/>
-			<item value="file"/>
-			<item value="quartz"/>
-			<item value="Quartz"/>
-			<item value="JavaMailAPI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

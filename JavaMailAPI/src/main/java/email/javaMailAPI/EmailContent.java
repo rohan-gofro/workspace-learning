@@ -29,7 +29,4 @@ public class EmailContent {
 	public String getFile() {
 		return file;
 	}
-	
-	
-
 }
